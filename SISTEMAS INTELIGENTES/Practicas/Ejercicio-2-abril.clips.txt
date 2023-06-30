@@ -1,0 +1,70 @@
+1)Haz un programa que dado un conjunto hechos
+(vector <nombreVector> <val1> ... <vaIN>) con 
+valores numericos, ordene sus valores de menor
+a mayor.
+
+
+(defrule ordenar
+	?h <- (datos ?nombre $?ini ?x ?y &: (> ?x ?y) $?fin)
+
+=>
+	(retract ?h)
+	(assert (datos ?nombre $?ini ?y ?x $?fin))
+)
+
+
+2)Escriba una única regla que realice la union de conjuntos (valores sin repetir). 
+Para ello tendremos un hecho
+(set1 <val1> <val2> ... <valM>)
+y otro hecho
+(set2 <val1> <val2> ... <vaIN>)
+La salida será un nuevo hecho
+(unicon <val1> <val2> ... <valK>).
+
+(defrule r-union-set
+	(or (set1 $?  $v $?)
+	    (set2 $?  ?v $?)
+)
+	(not (union $? $v $?))
+	?un <- (union $?valores)
+=>
+	(retract ?un)
+	(assert (union $?valores ?v))
+)
+
+
+
+3) Escriba un programa que dado un hecho vector (con nombre), 
+detecte si sus valores se repiten de forma simétrica o no.
+Siempre que la salida sea correcta, puede modificar el vector o utilizar hechos auxiliares.
+
+(defrule r-detecta-no-simetrico
+	(vector ?nombre ?x $? ?y &: (<> ?x ?y))
+	=>
+	(printout t "El vector " ?nombre " no es simétrico" crlf))
+
+(defrule r-detecta-si-simetrico
+	(or
+		(vector ?nombre ?)
+		(vector ?nombre ))
+=>
+	(printout t "El vector "?nombre " es simetrico" crlf)
+)
+
+(defrule r-detecta-simetrico-mod
+	?h <- (vector ?nombre ?x $?vals ?x)
+=>
+	(retract ?h)
+	(assert (vector ?nombre $? $?vals))
+)
+
+
+
+
+
+
+
+
+
+
+

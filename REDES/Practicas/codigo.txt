@@ -1,0 +1,64 @@
+else if(strncmp(buffer,"USUARIO",7)==0){
+				
+					char nombres[1][100];
+						char *pch;	
+						
+						pch = strtok (buffer," ");
+						int x=0;
+						
+							
+							while(pch != NULL){
+								strcpy(nombres[x],pch);
+								pch = strtok (NULL, " ");
+								x++;
+								
+							}
+							char usuario[100];
+							strcpy(usuario,nombres[1]);
+							if(buscar(usuario)==1){
+								char mensaje[25]="+OK, Usuario Correcto";
+								send(i,mensaje,strlen(mensaje),0);
+								
+								recv(i,buffer,sizeof(buffer),0);
+								
+								
+								
+								
+								
+if(strncmp(buffer,"PASSWORD",8)==0){
+					
+char nombres[1][100];
+	char *pch;	
+
+	pch = strtok (buffer," ");
+	int x=0;
+
+	
+		while(pch != NULL){
+			strcpy(nombres[x],pch);
+			pch = strtok (NULL, " ");
+			x++;
+		
+		}
+		char passwd[100];
+		strcpy(passwd,nombres[1]);
+		if(buscarpasswd(passwd)==1){
+			char mensaje[25]="+OK, Usuario validado";
+			send(i,mensaje,strlen(mensaje),0);
+		
+		
+		
+		
+		}
+		else{
+			char mensaje[50]="-Err. Error en la validacion";
+			send(i,mensaje,strlen(mensaje),0);
+		}
+
+}
+}
+else{
+char mensaje[50]="-Err. Usuario Incorrecto"; 
+send(i,mensaje,strlen(mensaje),0);
+}					
+}

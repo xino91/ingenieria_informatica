@@ -1,0 +1,20 @@
+\BOOKMARK [1][-]{section*.2}{\315ndice de figuras}{}% 1
+\BOOKMARK [1][-]{section*.3}{\315ndice de tablas}{}% 2
+\BOOKMARK [1][-]{section*.4}{\315ndice de algoritmos}{}% 3
+\BOOKMARK [1][-]{section.1}{Introduccion a redes neuronales de funcioness Base Radial}{}% 4
+\BOOKMARK [1][-]{section.2}{Implementaci\363n Algoritmo RBF}{}% 5
+\BOOKMARK [2][-]{subsection.2.1}{Arquitectura de los modelos}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.2}{Algoritmo Entrenamiento RBF}{section.2}% 7
+\BOOKMARK [1][-]{section.3}{Resultados Pr\341cticos}{}% 8
+\BOOKMARK [2][-]{subsection.3.1}{Descripci\363n de las Bases de Datos}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.2}{Descripci\363n de los distintos par\341metros}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.3}{Prueba de distintas arquitecturas}{section.3}% 11
+\BOOKMARK [3][-]{subsubsection.3.3.1}{BD Seno}{subsection.3.3}% 12
+\BOOKMARK [3][-]{subsubsection.3.3.2}{BD Quake}{subsection.3.3}% 13
+\BOOKMARK [3][-]{subsubsection.3.3.3}{BD Parkinsons}{subsection.3.3}% 14
+\BOOKMARK [3][-]{subsubsection.3.3.4}{BD Divorce}{subsection.3.3}% 15
+\BOOKMARK [3][-]{subsubsection.3.3.5}{BD noMNIST}{subsection.3.3}% 16
+\BOOKMARK [2][-]{subsection.3.4}{Para problemas de clasificaci\363n, variaci\363n de \040y regularizaci\363n L1 y L2}{section.3}% 17
+\BOOKMARK [2][-]{subsection.3.5}{Comparaci\363n inicializaci\363n KMeans aleatorio con respecto a KMeans++}{section.3}% 18
+\BOOKMARK [2][-]{subsection.3.6}{Usando Regresi\363n en BD Clasificaci\363n, noMNIST}{section.3}% 19
+\BOOKMARK [2][-]{subsection.3.7}{Resultados en noMNIST}{section.3}% 20

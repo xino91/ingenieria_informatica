@@ -1,0 +1,46 @@
+\section{Implementación Algoritmo RBF}
+\subsection{Arquitectura de los modelos}
+
+\begin{itemize}
+	\item Una capa de entrada con tantas neuronas como variables tenga la base de datos considerada.
+	\item Una capa oculta con un número de neuronas a especificar por el usuario.  Siempre tendremos solo una capa oculta, con todas las neuronas de tipo RBF.
+	\item Una capa de salida con tantas neuronas como variables de salida tenga la base de datos considerada.
+	\begin{itemize}
+		\item Si la base de datos es de regresión: Todas las neuronas serán de tipo lineal.
+		\item Si la base de datos es de clasificación, todas las neuronas de la capa de salida serán de tipo Softmax.
+	\end{itemize}
+\end{itemize}
+
+\subsection{Algoritmo Entrenamiento RBF}
+\begin{algorithm}[H]
+\caption{Entrenamiento RBF Offline}
+\begin{algorithmic}[1]
+	\STATE centroidesIniciales $\leftarrow$ aleatoriamente $n_1$ patrones 		     (regresion) o $n_1$ patrones de forma estratificada (clasificacion)
+	\STATE centroides $\leftarrow$ K-medias (X,$n_1$,centroidesIniciales)
+	\STATE $\sigma_j \leftarrow$ (medias de las distancias al resto de centroides)/2
+	\STATE Construir la matriz $R_{(Nx(n1+1))}$, donde $R_{ij} = out_j^1(x_i)$ para $j\neq (n_1 +1)$, y $R_{ij} = 1$ para $j =(n_1 +1)$
+	\IF {clasificacion}
+		\STATE PesosSalida $\leftarrow$ AplicarRegresionLogistica(R,eta)
+	\ELSE
+		\STATE PesosSalida $\leftarrow$ CalcularPseudoInversa(R)
+	\ENDIF
+\end{algorithmic}
+\end{algorithm}
+
+\begin{itemize}
+	\item[1.] Si es clasificación sacamos centroides de forma estratificada, y si es regresión escogemos aleatoriamente $n_1$ patrones
+	\item[2.] Ajuste de centros mediante algoritmo de clustering más popular, el K-means, con tantos clusters como neuronas de la RBF.
+	\item[3.] Para ajustar los radios de la RBF tomaremos la mitad de la distancia media al resto de centroides. $\sigma_j$ = $\dfrac{1}{2(n_1-1)} * \sum_{i\neq j} \lvert\lvert c_j-c_i \rvert\rvert$
+	\item[4.] Construimos la matriz R, donde tenemos el valor de activación de cada neurona para cada patrón.
+	\item[5.] Si es Clasificación
+	\begin{itemize}
+		\item[6.] Aplicamos regresión logística, utilizamos una función a la que le pasamos la matriz R. (puede incluir regularización, parámetro $\eta$).
+	\end{itemize}
+	\item[7.] Si es Regresión
+	\begin{itemize}
+		\item[8.] Una vez construida la matriz R, aplicamos la pseudo-inversa de Moore Penrose.
+	\end{itemize}
+\end{itemize}
+
+
+

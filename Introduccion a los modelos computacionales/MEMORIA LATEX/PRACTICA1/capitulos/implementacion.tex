@@ -1,0 +1,66 @@
+\section{Implementación}
+\subsection{Algoritmo de retropropagación online}
+
+\begin{algorithm}[H]
+\caption{Retropropagación online}
+\begin{algorithmic}[1]
+\STATE PesosAleatorios()
+
+\FORALL {patron con entrada x y salida d}
+	\STATE $\Delta w^h_{ji} \leftarrow 0$
+	\STATE forwardPropagation()
+	\STATE backPropagation()
+	\STATE accumulateChange()
+	\STATE weightAjustment()
+\ENDFOR
+\end{algorithmic}
+\end{algorithm}
+
+
+\begin{algorithm}[H]
+\caption{forwardPropagation}
+\begin{algorithmic}[1]
+
+\FOR {all capa i de 1 a H do}
+\FOR {all neurona j de la capa i do}
+	\STATE $SigmoidSum \leftarrow w^i_j{}_0$
+		\FOR {all neurona k de la capa i-1 do}
+			\STATE $SigmoidSum \leftarrow SigmoidSum + x^{i-1}_k * 			x^{i}_{jk-1}$
+		\ENDFOR
+\ENDFOR
+\ENDFOR
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}[H]
+\caption{accumulateChange}
+\begin{algorithmic}[1]
+\STATE $\eta \leftarrow dEta$
+\FOR {all capa i de 1 a H do}
+\FOR {all neurona j de la capa i do}
+	\FOR {all neurona k de la capa i-1 do}
+		\STATE $ultimo \Delta w^i_{jk} \leftarrow \Delta w^i_{jk}$
+		\STATE $\Delta w^i_{jk} \leftarrow \Delta w^i_{jk} + dX^i_j * X^{i-1}_{k-1}$
+	\ENDFOR
+	\STATE $ultimo \Delta w^i_{j0} \leftarrow \Delta w^i_{j0}$
+	\STATE $\Delta w^i_{j0} \leftarrow \Delta w^i_{j0} + dX^i_j$
+\ENDFOR
+\ENDFOR
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}[H]
+\caption{weightAdjustment}
+\begin{algorithmic}[1]
+\STATE $\eta \leftarrow dEta$
+\FOR {all capa i de 1 a H do}
+\FOR {all neurona j de la capa i do}
+	\FOR {all neurona k de la capa i-1 do}
+		\STATE $w^i_{jk} \leftarrow w^i_{jk} - \eta * \Delta w^i_{jk} - \mu * \eta * ultimo \Delta w^i_k{jk}$
+	\ENDFOR
+		\STATE $w^i_{j0} \leftarrow w^i_{j0} - \eta * \Delta w^i_{j0} - \mu * \eta * ultimo \Delta w^i_{j0}$
+\ENDFOR
+\STATE $\eta \leftarrow \eta dDecremento^{-(nofLayer-i)}$
+\ENDFOR
+\end{algorithmic}
+\end{algorithm}

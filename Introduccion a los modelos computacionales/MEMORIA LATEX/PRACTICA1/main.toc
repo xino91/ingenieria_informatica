@@ -1,0 +1,22 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {spanish}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Índice de figuras}{\es@scroman {ii}}{section*.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Índice de tablas}{\es@scroman {ii}}{section*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Índice de algoritmos}{\es@scroman {iii}}{section*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Introduccion a los modelos de redes neuronales}{1}{section.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Implementación}{1}{section.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Algoritmo de retropropagación online}{1}{subsection.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Resultados Prácticos}{3}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Descripción de los distintos parámetros}{3}{subsection.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Prueba de distintas arquitecturas}{4}{subsection.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Pruebas modificando el Factor de decremento}{6}{section.4}%

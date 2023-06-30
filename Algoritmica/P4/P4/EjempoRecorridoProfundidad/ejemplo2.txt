@@ -1,0 +1,20 @@
+CITY
+NON_DIRECTED
+4
+Almeria	36.84016	-2.467922
+Cadiz		36.52969	-6.292657
+Cordoba	37.88473	-4.779152
+Granada	37.17649	-3.597929	
+12	
+Almeria	Cadiz	10
+Almeria	Cordoba	15
+Almeria	Granada	20
+Cadiz	Almeria	5
+Cadiz	Cordoba	9
+Cadiz	Granada	10
+Cordoba	Almeria	6
+Cordoba	Cadiz	13
+Cordoba	Granada	12
+Granada	Almeria	8
+Granada	Cadiz	8
+Granada	Cordoba	9

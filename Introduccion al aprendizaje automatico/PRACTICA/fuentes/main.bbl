@@ -1,0 +1,42 @@
+\begin{thebibliography}{1}
+
+\bibitem{webgoogle}
+{\em Introducción al aprendizaje automático}.
+\newblock 2019.
+\newblock
+  \url{https://developers.google.com/machine-learning/crash-course/ml-intro?hl=es-419}.
+
+\bibitem{Stack}
+{\em Introducción al aprendizaje automático}.
+\newblock 2019.
+\newblock \url{https://stackoverflow.com/search?q=machine+learning+weka}.
+
+\bibitem{p1}
+Departamento de~informática~y Análisis~numérico.
+\newblock {\em Introducción al aprendizaje automático y Weka}.
+\newblock 2019.
+\newblock
+  \url{https://moodle.uco.es/m1920/pluginfile.php/161272/mod_resource/content/23/practica1-1-.pdf}.
+
+\bibitem{p2}
+Departamento de~informática~y Análisis~numérico.
+\newblock {\em Preprocesamiento y más filtros de Weka}.
+\newblock 2019.
+\newblock
+  \url{https://moodle.uco.es/m1920/pluginfile.php/161313/mod_resource/content/11/practica2-.pdf}.
+
+\bibitem{p4}
+Departamento de~informática~y Análisis~numérico.
+\newblock {\em Árboles y redes Neuronales}.
+\newblock 2019.
+\newblock
+  \url{https://moodle.uco.es/m1920/pluginfile.php/161304/mod_resource/content/10/practica4-.pdf}.
+
+\bibitem{p3}
+Departamento de~informática~y Análisis~numérico.
+\newblock {\em Regrasión y clasificación con Weka}.
+\newblock 2019.
+\newblock
+  \url{https://moodle.uco.es/m1920/pluginfile.php/161289/mod_resource/content/15/practica3-.pdf}.
+
+\end{thebibliography}

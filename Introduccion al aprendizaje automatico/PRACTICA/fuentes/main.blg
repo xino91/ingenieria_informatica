@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (MiKTeX 2.9.7400 64-bit)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: plain.bst
+Database file #1: ./Practicas/bibliografia.bib
+Warning--to sort, need author, editor, or key in webgoogle
+Warning--to sort, need author, editor, or key in Stack
+Warning--empty author and editor in webgoogle
+Warning--empty publisher in webgoogle
+Warning--empty author and editor in Stack
+Warning--empty publisher in Stack
+Warning--empty publisher in p1
+Warning--empty publisher in p2
+Warning--empty publisher in p4
+Warning--empty publisher in p3
+You've used 6 entries,
+            2118 wiz_defined-function locations,
+            520 strings with 4850 characters,
+and the built_in function-call counts, 1292 in all, are:
+= -- 112
+> -- 30
+< -- 0
++ -- 14
+- -- 8
+* -- 68
+:= -- 211
+add.period$ -- 22
+call.type$ -- 6
+change.case$ -- 16
+chr.to.int$ -- 0
+cite$ -- 16
+duplicate$ -- 74
+empty$ -- 137
+format.name$ -- 8
+if$ -- 273
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 10
+newline$ -- 37
+num.names$ -- 8
+pop$ -- 46
+preamble$ -- 1
+purify$ -- 16
+quote$ -- 0
+skip$ -- 36
+stack$ -- 0
+substring$ -- 30
+swap$ -- 6
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 12
+warning$ -- 10
+while$ -- 8
+width$ -- 7
+write$ -- 64
+(There were 10 warnings)

@@ -1,0 +1,78 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P3/city.hpp
+exception
+-
+iostream
+-
+string
+-
+graph_utils.hpp
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P3/graph_utils.hpp
+
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P3/graph.hpp
+cassert
+-
+cstdlib
+-
+memory
+-
+vector
+-
+limits
+-
+
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P3/graph_utils.hpp
+iostream
+-
+memory
+-
+string
+-
+graph.hpp
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P3/graph.hpp
+
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P3/test.cpp
+iostream
+-
+fstream
+-
+sstream
+-
+string
+-
+exception
+-
+vector
+-
+valarray
+-
+city.hpp
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P3/city.hpp
+graph.hpp
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P3/graph.hpp
+graph_utils.hpp
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P3/graph_utils.hpp
+traveling_salesman_greedy_algorithm.hpp
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P3/traveling_salesman_greedy_algorithm.hpp
+
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P3/traveling_salesman_greedy_algorithm.hpp
+stack
+-
+utility
+-
+valarray
+-
+graph.hpp
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P3/graph.hpp
+graph_utils.hpp
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P3/graph_utils.hpp
+vector
+-
+

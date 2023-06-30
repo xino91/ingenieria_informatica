@@ -1,0 +1,40 @@
+CITY
+NON_DIRECTED
+6
+Almeria	36.84016	-2.467922
+Cadiz	36.52969	-6.292657
+Cordoba	37.88473	-4.779152
+Granada	37.17649	-3.597929	
+Huelva	37.2571	-6.949555	
+Jaen		37.76574	-3.789518
+30
+Almeria	Cadiz	3
+Almeria	Cordoba	10
+Almeria	Granada	11
+Almeria	Huelva	7
+Almeria	Jaen		25
+Cadiz	Almeria	3
+Cadiz	Cordoba	6
+Cadiz	Granada	12
+Cadiz	Huelva	8
+Cadiz	Jaen		26
+Cordoba	Almeria	10
+Cordoba	Cadiz	6
+Cordoba	Granada	9
+Cordoba	Huelva	4
+Cordoba	Jaen		20
+Granada	Almeria	11
+Granada	Cadiz	12
+Granada	Cordoba	9
+Granada	Huelva	5
+Granada	Jaen		15
+Huelva	Almeria	7
+Huelva	Cadiz	8
+Huelva	Cordoba	4
+Huelva	Granada	5
+Huelva	Jaen		18
+Jaen	Almeria	25
+Jaen	Cadiz	26
+Jaen	Cordoba	20
+Jaen	Granada	15
+Jaen	Huelva	18

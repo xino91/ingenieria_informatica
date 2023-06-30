@@ -1,0 +1,26 @@
+\BOOKMARK [0][-]{chapter*.2}{\315ndice de figuras}{}% 1
+\BOOKMARK [1][-]{section.0.1}{Introducci\363n}{chapter*.2}% 2
+\BOOKMARK [0][-]{chapter.1}{Entregable 1}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Transformaci\363n base de datos de la UCI \(Machine learning repository\) a formato .arff}{chapter.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.1}{Base de datos Dermatology}{section.1.1}% 5
+\BOOKMARK [1][-]{section.1.2}{Filtros en Weka}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.2.1}{Base de datos audiology}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.2}{Tres filtros no supervisados}{section.1.2}% 8
+\BOOKMARK [2][-]{subsection.1.2.3}{Tres filtros supervisados}{section.1.2}% 9
+\BOOKMARK [0][-]{chapter.2}{Entregable 2}{}% 10
+\BOOKMARK [1][-]{section.2.1}{Preprocesamiento conjunto de datos de altura de ola}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.1.1}{Atributos TIDE, VIS, MWD}{section.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.1.2}{Recuperaci\363n de datos perdidos}{section.2.1}% 13
+\BOOKMARK [2][-]{subsection.2.1.3}{Selecci\363n de atributos}{section.2.1}% 14
+\BOOKMARK [2][-]{subsection.2.1.4}{Correlaci\363n}{section.2.1}% 15
+\BOOKMARK [1][-]{section.2.2}{Preprocesamiento conjunto Test}{chapter.2}% 16
+\BOOKMARK [2][-]{subsection.2.2.1}{Tratamiento de atributos}{section.2.2}% 17
+\BOOKMARK [2][-]{subsection.2.2.2}{Normalizaci\363n}{section.2.2}% 18
+\BOOKMARK [0][-]{chapter.3}{Entregable 3}{}% 19
+\BOOKMARK [1][-]{section.3.1}{Base de datos WINE}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.1.1}{Algoritmo clasificaci\363n KNN}{section.3.1}% 21
+\BOOKMARK [2][-]{subsection.3.1.2}{Algoritmo Simple Logistic}{section.3.1}% 22
+\BOOKMARK [0][-]{chapter.4}{Entregable 4}{}% 23
+\BOOKMARK [1][-]{subsection.4.0.1}{Ejercicio 1}{chapter.4}% 24
+\BOOKMARK [2][-]{subsection.4.0.2}{Ejercicio 2}{subsection.4.0.1}% 25
+\BOOKMARK [0][-]{chapter*.37}{Bibliograf\355a}{}% 26

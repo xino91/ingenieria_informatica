@@ -1,0 +1,8 @@
+\defcounter {refsection}{0}\relax 
+\contentsline {algorithm}{\numberline {1}{\ignorespaces Retropropagación online\relax }}{1}{algorithm.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {algorithm}{\numberline {2}{\ignorespaces forwardPropagation\relax }}{2}{algorithm.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {algorithm}{\numberline {3}{\ignorespaces accumulateChange\relax }}{2}{algorithm.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {algorithm}{\numberline {4}{\ignorespaces weightAdjustment\relax }}{2}{algorithm.4}%

@@ -1,0 +1,140 @@
+\documentclass[11pt,a4paper,twoside,openany]{book}
+
+% PAQUETES ------------------------------------------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-tabla,es-nodecimaldot]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+% Manejo de simbolos de cita multiples
+\usepackage{csquotes}
+% Figuras
+\usepackage{graphicx}
+% Configuracion de interlineado (\onehalfspace y \singlespacing en capitulos)
+\usepackage{setspace}
+% Permite que las figuras floten en la posición en la que aparecen en el código
+\usepackage{float}
+% Permite dar estilo a los subtitulos de las figuras (captions)
+\usepackage{caption}
+% Permite sub-captions en sub-figuras (figuras dentro de figuras)
+\usepackage{subcaption}
+% Permite múltiples filas en tablas
+\usepackage{multirow}
+% Elimina numeracion de paginas en blanco
+\usepackage{emptypage}
+% Paquete para las figuras
+\usepackage{wrapfig}
+\usepackage{subcaption}
+%Para cambiar la alineación predeterminada de una imagen de la izquierda o la derecha de una manera fácil
+\usepackage[export]{adjustbox}
+% Permite continuar con la numeración entre listas distintas
+\usepackage{enumitem}
+% Bibliografia
+%\usepackage[
+% 	backend=biber,
+% 	style=numeric,
+% 	sorting=none
+% ]{biblatex}
+%\addbibresource{./capitulos/bibliografia.bib}
+% Introduce la bibliografía en el índice
+\usepackage[nottoc]{tocbibind}
+% Modificar encabezamientos y pie de páginas
+\usepackage{fancyhdr}
+% Rompe URLs largas
+%\usepackage{breakurl}
+% Soporte para estructuras de algoritmos en pseudocódigo
+\usepackage[spanish,onelanguage,ruled,vlined,linesnumbered]{algorithm2e}
+% Soporte de listado de codigo MATLAB
+\usepackage[numbered,autolinebreaks]{mcode}
+% Control de enlaces hipertexto en el documento. Este paquete debe cargarse el último.
+\usepackage{hyperref}
+% Configuracion interna del documento PDF, requiere hyperref
+\hypersetup {
+    pdfauthor = {AUTOR},
+    pdfsubject = {TITULO},
+    pdftitle = {Trabajo de Fin de Grado - Manual Técnico},
+    pdfkeywords = {palabras, clave}
+}
+\graphicspath{{./img/}}
+
+% Marca en rojo los elementos pendientes (TO-DOs)
+\newcommand{\todo}[1]{\textcolor{red}{TODO: #1}}
+
+% Informacion del documento -------------------------------------------------------------
+\author{Antonio Ariza García y Enrique Gálan Gálan}
+\title{IAA}
+\date{LA FECHA}
+
+% ESTILOS DE PAGINA ---------------------------------------------------------------------
+% Indexación de contenidos hasta 3er nivel
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+% Encabezado y pie de pagina
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[RO]{\rightmark}
+\fancyhead[LE]{\leftmark}
+\fancyfoot[LE,RO]{\thepage}
+% Fijar altura vertical de la cabecera
+\setlength{\headheight}{15pt}
+% Lineas de encabezado y pie de pagina
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
+% Interlineado de 1.5
+\renewcommand{\baselinestretch}{1.5}
+\renewcommand{\thesection}{\arabic{section}}
+%Para renombrar figurename se debe hacer asi por el paquete idioma babel
+\addto\captionsspanish{
+  \renewcommand{\figurename}{Fig.}
+  %\renewcommand{\chaptername}{Entregable}
+}
+%\renewcommand{\bibname}{Bibliografía}
+
+% Enlaces
+\hypersetup{
+    colorlinks=true,
+    urlcolor=cyan,
+}
+% Espacio despues de tablas
+\setlength{\textfloatsep}{0.1cm}
+\setlength{\parskip}{2pt}
+\setlength{\parindent}{1em}
+
+% DOCUMENTO ----------------------------------------------------------------------------
+\begin{document}
+\frontmatter
+
+% PORTADA ---------------------------------------------------------------
+\input{./Practicas/portada}
+
+% INDICES ---------------------------------------------------------------
+%\pagenumbering{roman}
+% Indice general
+\tableofcontents
+% Indice de figuras
+\listoffigures
+% Indice de tablas
+%\listoftables
+
+% DESARROLLO DE LA MEMORIA -------------------------------------------------------------
+\mainmatter
+
+% MANUAL TÉCNICO -----------------------------------------------------------------------
+%\part{Prácticas} \label{part:practicas}
+\input{./Practicas/introduccion}
+\input{./Practicas/Practica1}
+\input{./Practicas/Practica2}
+\input{./Practicas/Practica3}
+\input{./Practicas/Practica4}
+ --------------------------------------------------------------
+
+% BIBLIOGRAFIA --------------------------------------------------------------------------
+% Localizacion de Bibliografía .bib para BibTex
+\backmatter
+%\printbibliography[heading=bibintoc, title={Bibliografía}]
+\bibliographystyle{plain}
+\bibliography{./Practicas/bibliografia}
+%Necesario para que imprima toda la bibliografia sin hacer falta ser referenciada en el texto
+\nocite{*}
+ -----------------------------------------------------------------------
+\end{document}

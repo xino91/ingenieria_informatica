@@ -1,0 +1,81 @@
+% Define el tipo de documento: artículo en este caso.
+\documentclass[12pt, a4paper, oneside, titlepage]{article}
+
+%----------- Paquetes necesarios para esta memoria -------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-tabla,es-nodecimaldot]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{csquotes}	% Manejo de simbolos de cita multiples
+\usepackage{graphicx}	% Figuras
+% Configuracion de interlineado (\onehalfspace y \singlespacing en capitulos)
+%\usepackage{setspace}
+\usepackage{float}	% Permite que las figuras floten en la posición en la que aparecen en el código
+\usepackage{caption}	% Permite dar estilo a los subtitulos de las figuras (captions)
+\usepackage{subcaption}	% Permite sub-captions en sub-figuras (figuras dentro de figuras)
+\usepackage{wrapfig}
+\usepackage[table]{xcolor}
+\usepackage{multirow}	% Permite múltiples filas en tablas
+\usepackage{emptypage}	% Elimina numeracion de paginas en blanco
+\usepackage{enumitem}	% Permite continuar con la numeración entre listas distintas
+\usepackage{algorithm}
+\usepackage{algorithmic}
+
+%Paquete para gestionar enlaces
+\usepackage{hyperref}
+\graphicspath{{./capitulos/img/}} %ruta a la carpeta de imaganes, nos evita poner siempre la ruta
+
+%Paquete para gestionar la bibliografía
+\usepackage[backend=bibtex, style=numeric, sorting=none, maxbibnames=6]{biblatex}
+%---------------------------------------------------------------------------------------
+
+%Datos del alumno y asignatura
+\author{Antonio Ariza García}
+\title{Introducción a los modelos computacionales: Práctica 1}
+
+%Fecha de creación de la memoria
+\date{Curso académico 2020-2021\\Córdoba, \today}
+
+% Cambia el título del índice de algoritmos
+%\renewcommand{\listalgorithmname}{Índice de algoritmos}
+
+% Comienzo del documento
+\begin{document}
+
+% Cargar la portada
+\input{portada.tex}
+
+% Cambia el tipo de numeración de páginas a números romanos
+\pagenumbering{roman}
+% Muestra el índice de contenido
+\tableofcontents
+\newpage
+
+% Muestra el índice de figuras y lo incluye en el índice de contenido
+\listoffigures
+\addcontentsline{toc}{section}{Índice de figuras}
+\newpage
+
+% Muestra el índice de tablas y lo incluye en el índice de contenido
+\listoftables
+\addcontentsline{toc}{section}{Índice de tablas}
+\newpage
+
+% Muestra el índice de algoritmos y lo incluye en el índice de contenido
+\listofalgorithms
+\addcontentsline{toc}{section}{Índice de algoritmos}
+\newpage
+
+% Cambia la numeración de páginas a numeración decimal
+\pagenumbering{arabic}
+
+% Cambia el espaciado entre párrafos
+\setlength{\parskip}{0.7em}
+
+% Cargarmos las demás partes del documento
+\input{./capitulos/introduccion.tex}
+\input{./capitulos/implementacion.tex}
+\input{./capitulos/resultados.tex}
+
+\end{document}

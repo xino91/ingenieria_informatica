@@ -1,0 +1,38 @@
+\babel@toc {spanish}{}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Asistente conversión Excel\relax }}{3}{figure.caption.3}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Abrir archivo en weka\relax }}{4}{figure.caption.4}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Convertidor Weka\relax }}{5}{figure.caption.5}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Fallo del convertidor\relax }}{6}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Aspecto Fichero .arff\relax }}{7}{figure.caption.7}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces BinaryAttributesNominal=False\relax }}{9}{figure.caption.8}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces TransformAllValues=True\relax }}{10}{figure.caption.9}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Antes de aplicar filtro Normalize\relax }}{11}{figure.caption.10}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces Después de aplicar filtro Normalize\relax }}{12}{figure.caption.11}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces Indicaciones del filtro Remove\relax }}{13}{figure.caption.12}%
+\contentsline {figure}{\numberline {1.11}{\ignorespaces Fichero con valores desconocidos\relax }}{14}{figure.caption.13}%
+\contentsline {figure}{\numberline {1.12}{\ignorespaces Aplicación del filtro ReplaceMissingValues\relax }}{15}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.13}{\ignorespaces Opciones del filtro Resample\relax }}{16}{figure.caption.15}%
+\contentsline {figure}{\numberline {1.14}{\ignorespaces Resultado de aplicar el filtro Resample\relax }}{17}{figure.caption.16}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces DEWP Datos perdidos\relax }}{20}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Atributo PRES\relax }}{21}{figure.caption.18}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Seleccion de atributos\relax }}{22}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Logistic rendimiento\relax }}{23}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Filtro Normalizacion\relax }}{26}{figure.caption.22}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Wine.arff antes de aplicar el filtro Normalize\relax }}{27}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Wine.arff una vez normalizado\relax }}{28}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Valores modificados para IBK, k=3\relax }}{29}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Estadísticas globales de nuestro clasificador\relax }}{29}{figure.caption.26}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Estadísticas de clasificación de cada clase\relax }}{30}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Estadísticas de clasificación de cada clase\relax }}{30}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Modelo de Regresión Logística obtenido al aplicar SampleLogistic\relax }}{31}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Estadísticas de clasificación de cada clase\relax }}{33}{figure.caption.30}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Aplicación del 75\% de entrenamiento\relax }}{35}{figure.caption.31}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Árbol obtenido por el algoritmo C4.5\relax }}{36}{figure.caption.32}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Reglas propias del árbol\relax }}{36}{figure.caption.33}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Estadísticas de clasificación de cada clase\relax }}{37}{figure.caption.34}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Estadísticas de clasificación de cada clase\relax }}{38}{figure.caption.35}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Evolución del CCR con respecto a TrainingTime\relax }}{39}{figure.caption.36}%

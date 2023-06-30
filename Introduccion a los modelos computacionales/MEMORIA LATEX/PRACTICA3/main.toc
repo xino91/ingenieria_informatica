@@ -1,0 +1,42 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {spanish}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Índice de figuras}{\es@scroman {ii}}{section*.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Índice de tablas}{\es@scroman {iii}}{section*.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Índice de algoritmos}{\es@scroman {iv}}{section*.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Introduccion a redes neuronales de funcioness Base Radial}{1}{section.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Implementación Algoritmo RBF}{2}{section.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Arquitectura de los modelos}{2}{subsection.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Algoritmo Entrenamiento RBF}{3}{subsection.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Resultados Prácticos}{4}{section.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Descripción de las Bases de Datos}{4}{subsection.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Descripción de los distintos parámetros}{5}{subsection.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}Prueba de distintas arquitecturas}{6}{subsection.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.1}BD Seno}{6}{subsubsection.3.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.2}BD Quake}{6}{subsubsection.3.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.3}BD Parkinsons}{7}{subsubsection.3.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.4}BD Divorce}{7}{subsubsection.3.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.3.5}BD noMNIST}{8}{subsubsection.3.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4}Para problemas de clasificación, variación de $\eta $ y regularización L1 y L2}{8}{subsection.3.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.5}Comparación inicialización KMeans aleatorio con respecto a KMeans++}{10}{subsection.3.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.6}Usando Regresión en BD Clasificación, noMNIST}{11}{subsection.3.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.7}Resultados en noMNIST}{12}{subsection.3.7}%

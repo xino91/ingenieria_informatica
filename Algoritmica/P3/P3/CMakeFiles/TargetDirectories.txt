@@ -1,0 +1,3 @@
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P3/CMakeFiles/rebuild_cache.dir
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P3/CMakeFiles/edit_cache.dir
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P3/CMakeFiles/test.dir

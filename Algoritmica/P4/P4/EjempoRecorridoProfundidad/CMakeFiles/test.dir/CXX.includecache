@@ -1,0 +1,76 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P4/EjempoRecorridoProfundidad/city.hpp
+exception
+-
+iostream
+-
+string
+-
+graph_utils.hpp
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P4/EjempoRecorridoProfundidad/graph_utils.hpp
+
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P4/EjempoRecorridoProfundidad/deep_travel_graph_algorithm.hpp
+stack
+-
+utility
+-
+valarray
+-
+graph.hpp
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P4/EjempoRecorridoProfundidad/graph.hpp
+graph_utils.hpp
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P4/EjempoRecorridoProfundidad/graph_utils.hpp
+
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P4/EjempoRecorridoProfundidad/graph.hpp
+cassert
+-
+cstdlib
+-
+memory
+-
+vector
+-
+limits
+-
+
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P4/EjempoRecorridoProfundidad/graph_utils.hpp
+iostream
+-
+memory
+-
+string
+-
+graph.hpp
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P4/EjempoRecorridoProfundidad/graph.hpp
+
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P4/EjempoRecorridoProfundidad/test.cpp
+iostream
+-
+fstream
+-
+sstream
+-
+string
+-
+exception
+-
+vector
+-
+valarray
+-
+city.hpp
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P4/EjempoRecorridoProfundidad/city.hpp
+graph.hpp
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P4/EjempoRecorridoProfundidad/graph.hpp
+graph_utils.hpp
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P4/EjempoRecorridoProfundidad/graph_utils.hpp
+deep_travel_graph_algorithm.hpp
+/home/aag/Escritorio/ALGORITMICA/SEGUNDO AÑO/P4/EjempoRecorridoProfundidad/deep_travel_graph_algorithm.hpp
+

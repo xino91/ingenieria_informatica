@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.11"/>
+<title>Estructuras de Datos: Fichero Fuente funcionesAuxiliares.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { init_search(); });
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+});
+</script><script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Estructuras de Datos
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.11 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+      <li><a href="globals.html"><span>Miembros&#160;de&#160;los&#160;ficheros</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">funcionesAuxiliares.hpp</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="funcionesAuxiliares_8hpp.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#ifndef _FUNCIONESAUXILIARES_HPP_</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#define _FUNCIONESAUXILIARES_HPP_</span></div><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="Vector3D_8hpp.html">Vector3D.hpp</a>&quot;</span></div><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespaceed.html">ed</a></div><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="funcionesAuxiliares_8hpp.html#a546d1699e6a9b8dd8d3aa52978a38f06">menu</a>();</div><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="funcionesAuxiliares_8hpp.html#a04f2d578098999dd9ffd6792932cbfc3">leerVectores</a>(<a class="code" href="classed_1_1Vector3D.html">ed::Vector3D</a> &amp;u, <a class="code" href="classed_1_1Vector3D.html">ed::Vector3D</a> &amp;v, <a class="code" href="classed_1_1Vector3D.html">ed::Vector3D</a> &amp;w);</div><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    </div><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="funcionesAuxiliares_8hpp.html#a09830616ef5b817f1bf7548fb20bf6a6">escribirVectores</a>(<a class="code" href="classed_1_1Vector3D.html">ed::Vector3D</a> <span class="keyword">const</span> &amp;u, <a class="code" href="classed_1_1Vector3D.html">ed::Vector3D</a> <span class="keyword">const</span> &amp;v, <a class="code" href="classed_1_1Vector3D.html">ed::Vector3D</a> <span class="keyword">const</span> &amp;w);</div><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="funcionesAuxiliares_8hpp.html#aae9bdf9bcd781aa9af73b7073e5f3d11">observadoresDeVectores</a>(<a class="code" href="classed_1_1Vector3D.html">ed::Vector3D</a> <span class="keyword">const</span> &amp;u, <a class="code" href="classed_1_1Vector3D.html">ed::Vector3D</a> <span class="keyword">const</span> &amp;v);</div><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="funcionesAuxiliares_8hpp.html#a63a4b78f49362a314209d364d033efb9">modificarVector</a>(<a class="code" href="classed_1_1Vector3D.html">ed::Vector3D</a> &amp;u, <a class="code" href="classed_1_1Vector3D.html">ed::Vector3D</a> <span class="keyword">const</span> &amp;v, <span class="keywordtype">double</span> k);</div><div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div><div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    </div><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="funcionesAuxiliares_8hpp.html#ac7e02ba54aa1890faa4df840d8e2ae25">mostrarProductoEscalar</a>(<a class="code" href="classed_1_1Vector3D.html">ed::Vector3D</a> <span class="keyword">const</span> &amp;u, <a class="code" href="classed_1_1Vector3D.html">ed::Vector3D</a> <span class="keyword">const</span> &amp;v); </div><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div><div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="funcionesAuxiliares_8hpp.html#a98f15cf42702863b389ddf3fee446f44">mostrarProductoVectorial</a>(<a class="code" href="classed_1_1Vector3D.html">ed::Vector3D</a> <span class="keyword">const</span> &amp;u, <a class="code" href="classed_1_1Vector3D.html">ed::Vector3D</a> <span class="keyword">const</span> &amp;v);</div><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    </div><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="funcionesAuxiliares_8hpp.html#ae86df53c590516b34f9aab2cde22cab8">mostrarProductoMixto</a>(<a class="code" href="classed_1_1Vector3D.html">ed::Vector3D</a> <span class="keyword">const</span> &amp;u, <a class="code" href="classed_1_1Vector3D.html">ed::Vector3D</a> <span class="keyword">const</span> &amp;v, <a class="code" href="classed_1_1Vector3D.html">ed::Vector3D</a> <span class="keyword">const</span> &amp;w);</div><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    </div><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="funcionesAuxiliares_8hpp.html#a65698b4ad3276f5c5fc2d9e1ba9a51d4">mostrarOperadores</a>(<a class="code" href="classed_1_1Vector3D.html">ed::Vector3D</a> <span class="keyword">const</span> &amp;u, <a class="code" href="classed_1_1Vector3D.html">ed::Vector3D</a> <span class="keyword">const</span> &amp;v, <a class="code" href="classed_1_1Vector3D.html">ed::Vector3D</a> &amp;w,  <span class="keywordtype">double</span> k);</div><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;} <span class="comment">// Fin del espacio de nombre de la asignatura: ed</span></div><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="comment">// Fin de _FUNCIONESAUXILIARES_HPP_</span></div><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="preprocessor">#endif</span></div><div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div><div class="ttc" id="funcionesAuxiliares_8hpp_html_a04f2d578098999dd9ffd6792932cbfc3"><div class="ttname"><a href="funcionesAuxiliares_8hpp.html#a04f2d578098999dd9ffd6792932cbfc3">ed::leerVectores</a></div><div class="ttdeci">void leerVectores(ed::Vector3D &amp;u, ed::Vector3D &amp;v, ed::Vector3D &amp;w)</div><div class="ttdoc">Realiza la lectura de vectores de tipo Vector3D a tráves de operadores y funciones. </div><div class="ttdef"><b>Definition:</b> <a href="funcionesAuxiliares_8cpp_source.html#l00080">funcionesAuxiliares.cpp:80</a></div></div>
+<div class="ttc" id="Vector3D_8hpp_html"><div class="ttname"><a href="Vector3D_8hpp.html">Vector3D.hpp</a></div><div class="ttdoc">Fichero de definición de la clase Vector3D: vector libre de tres dimensiones. </div></div>
+<div class="ttc" id="funcionesAuxiliares_8hpp_html_a65698b4ad3276f5c5fc2d9e1ba9a51d4"><div class="ttname"><a href="funcionesAuxiliares_8hpp.html#a65698b4ad3276f5c5fc2d9e1ba9a51d4">ed::mostrarOperadores</a></div><div class="ttdeci">void mostrarOperadores(ed::Vector3D const &amp;u, ed::Vector3D const &amp;v, ed::Vector3D &amp;w, double k)</div><div class="ttdoc">Permite consultar los datos sobre los operadores con tres vectores de tipo Vectores3D. </div><div class="ttdef"><b>Definition:</b> <a href="funcionesAuxiliares_8cpp_source.html#l00378">funcionesAuxiliares.cpp:378</a></div></div>
+<div class="ttc" id="funcionesAuxiliares_8hpp_html_a546d1699e6a9b8dd8d3aa52978a38f06"><div class="ttname"><a href="funcionesAuxiliares_8hpp.html#a546d1699e6a9b8dd8d3aa52978a38f06">ed::menu</a></div><div class="ttdeci">int menu()</div><div class="ttdoc">Muestra el menú del programa principal. </div><div class="ttdef"><b>Definition:</b> <a href="funcionesAuxiliares_8cpp_source.html#l00017">funcionesAuxiliares.cpp:17</a></div></div>
+<div class="ttc" id="namespaceed_html"><div class="ttname"><a href="namespaceed.html">ed</a></div><div class="ttdef"><b>Definition:</b> <a href="funcionesAuxiliares_8hpp_source.html#l00015">funcionesAuxiliares.hpp:15</a></div></div>
+<div class="ttc" id="funcionesAuxiliares_8hpp_html_aae9bdf9bcd781aa9af73b7073e5f3d11"><div class="ttname"><a href="funcionesAuxiliares_8hpp.html#aae9bdf9bcd781aa9af73b7073e5f3d11">ed::observadoresDeVectores</a></div><div class="ttdeci">void observadoresDeVectores(ed::Vector3D const &amp;u, ed::Vector3D const &amp;v)</div><div class="ttdoc">Realiza la prueba de los observadores de vectores de tipo Vector3D. </div><div class="ttdef"><b>Definition:</b> <a href="funcionesAuxiliares_8cpp_source.html#l00130">funcionesAuxiliares.cpp:130</a></div></div>
+<div class="ttc" id="funcionesAuxiliares_8hpp_html_a98f15cf42702863b389ddf3fee446f44"><div class="ttname"><a href="funcionesAuxiliares_8hpp.html#a98f15cf42702863b389ddf3fee446f44">ed::mostrarProductoVectorial</a></div><div class="ttdeci">void mostrarProductoVectorial(ed::Vector3D const &amp;u, ed::Vector3D const &amp;v)</div><div class="ttdoc">Permite consultar los datos del producto vectorial de dos vectores de tipo Vector3D. </div><div class="ttdef"><b>Definition:</b> <a href="funcionesAuxiliares_8cpp_source.html#l00305">funcionesAuxiliares.cpp:305</a></div></div>
+<div class="ttc" id="funcionesAuxiliares_8hpp_html_ac7e02ba54aa1890faa4df840d8e2ae25"><div class="ttname"><a href="funcionesAuxiliares_8hpp.html#ac7e02ba54aa1890faa4df840d8e2ae25">ed::mostrarProductoEscalar</a></div><div class="ttdeci">void mostrarProductoEscalar(ed::Vector3D const &amp;u, ed::Vector3D const &amp;v)</div><div class="ttdoc">Permite consultar los datos del producto escalar de dos vectores de tipo Vector3D. </div><div class="ttdef"><b>Definition:</b> <a href="funcionesAuxiliares_8cpp_source.html#l00279">funcionesAuxiliares.cpp:279</a></div></div>
+<div class="ttc" id="funcionesAuxiliares_8hpp_html_a09830616ef5b817f1bf7548fb20bf6a6"><div class="ttname"><a href="funcionesAuxiliares_8hpp.html#a09830616ef5b817f1bf7548fb20bf6a6">ed::escribirVectores</a></div><div class="ttdeci">void escribirVectores(ed::Vector3D const &amp;u, ed::Vector3D const &amp;v, ed::Vector3D const &amp;w)</div><div class="ttdoc">Realiza la escritura de vectores de tipo Vector3D a traves de operadores y funciones. </div><div class="ttdef"><b>Definition:</b> <a href="funcionesAuxiliares_8cpp_source.html#l00111">funcionesAuxiliares.cpp:111</a></div></div>
+<div class="ttc" id="funcionesAuxiliares_8hpp_html_a63a4b78f49362a314209d364d033efb9"><div class="ttname"><a href="funcionesAuxiliares_8hpp.html#a63a4b78f49362a314209d364d033efb9">ed::modificarVector</a></div><div class="ttdeci">void modificarVector(ed::Vector3D &amp;u, ed::Vector3D const &amp;v, double k)</div><div class="ttdoc">Permite modificar los datos de un vector de tipo Vector3D. </div><div class="ttdef"><b>Definition:</b> <a href="funcionesAuxiliares_8cpp_source.html#l00215">funcionesAuxiliares.cpp:215</a></div></div>
+<div class="ttc" id="funcionesAuxiliares_8hpp_html_ae86df53c590516b34f9aab2cde22cab8"><div class="ttname"><a href="funcionesAuxiliares_8hpp.html#ae86df53c590516b34f9aab2cde22cab8">ed::mostrarProductoMixto</a></div><div class="ttdeci">void mostrarProductoMixto(ed::Vector3D const &amp;u, ed::Vector3D const &amp;v, ed::Vector3D const &amp;w)</div><div class="ttdoc">Permite consultar los datos del producto mixto de tres vectores de tipo Vector3D. ...</div><div class="ttdef"><b>Definition:</b> <a href="funcionesAuxiliares_8cpp_source.html#l00350">funcionesAuxiliares.cpp:350</a></div></div>
+<div class="ttc" id="classed_1_1Vector3D_html"><div class="ttname"><a href="classed_1_1Vector3D.html">ed::Vector3D</a></div><div class="ttdoc">Definición de la clase Vector3D: . </div><div class="ttdef"><b>Definition:</b> <a href="Vector3D_8hpp_source.html#l00034">Vector3D.hpp:34</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.11
+</small></address>
+</body>
+</html>

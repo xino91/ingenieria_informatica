@@ -1,0 +1,37 @@
+\section{Implementación}
+Resumen de las modificaciones a realizar.
+\begin{itemize}
+\item Incorporación de la función softmax: Se incorporará la posibilidad de que las neuronas de capa de salida sean de tipo softmax, quedando su salida definida de la siguiente forma:
+\begin{equation}
+net^H_j = w^H_{j0} + \sum^{nH-1}_{i=1} w^H_{ji} * out^{H-1}_i
+\end{equation}
+\begin{equation}
+out^H_j = \frac{exp(net^H_j)}{\sum^{nH}_{l=1}exp(net^H_j)}
+\end{equation}
+
+\item Utilización de la función de error basada en entropía cruzada:
+\begin{equation}
+L = - \frac{1}{N} \sum^{N}_{p=1} \left(\frac{1}{K} \sum^k_{o=1} d_{po}ln(o_{po})\right)
+\end{equation}
+donde N es el número de patrones de la base de datos considerada, k es el número de salidas, dpo es 1 si el patrón p pertenece a la clase o (y 0 en caso contrario) y opo es el valor de probabilidad obtenido por el modelo para el patrón p y la clase o.
+
+\item Modo de funcinamiento: Además del funcionamiento online (práctica anterior), en este práctica también podrá trabajar en modo offline. Esto es, por cada patrón de entrenamiento (bucle interno), calcularemos el error y acumularemos el cambio, pero no ajustaremos los pesos de la red. Una vez procesados todos los patrones de entrenamiento (y acumulados todos los cambios), entonces ajustaremos los pesos.
+\end{itemize}
+
+
+
+\begin{algorithm}[H]
+\caption{weightAdjustment}
+\begin{algorithmic}[1]
+\STATE $\eta \leftarrow dEta$
+\FOR {all capa i de 1 a H do}
+\FOR {all neurona j de la capa i do}
+	\FOR {all neurona k de la capa i-1 do}
+		\STATE $w^i_{jk} \leftarrow w^i_{jk} - \eta * \Delta w^i_{jk} - \mu * \eta * ultimo \Delta w^i_k{jk}$
+	\ENDFOR
+		\STATE $w^i_{j0} \leftarrow w^i_{j0} - \eta * \Delta w^i_{j0} - \mu * \eta * ultimo \Delta w^i_{j0}$
+\ENDFOR
+\STATE $\eta \leftarrow \eta dDecremento^{-(nofLayer-i)}$
+\ENDFOR
+\end{algorithmic}
+\end{algorithm}
